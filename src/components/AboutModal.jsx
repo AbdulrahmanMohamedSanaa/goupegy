@@ -29,14 +29,11 @@ export default function AboutModal({ open, onClose }) {
             </div>
 
             <p className="text-gray-300 leading-relaxed">
-              We’re a creative team passionate about building sleek, fast, and
-              modern websites that help businesses stand out online.
+             Why businesses choose GoUp. 
             </p>
 
             <p className="text-gray-400 mt-3">
-              From personal portfolios to full-scale business platforms, we
-              handle everything — design, development, SEO, and performance
-              optimization. Every project we make blends style with function.
+              Your website is the first handshake with your clients. Lets make it unforgettable.
             </p>
 
             <div className="mt-6 grid grid-cols-2 gap-4">
@@ -44,17 +41,33 @@ export default function AboutModal({ open, onClose }) {
                 whileHover={{ scale: 1.05 }}
                 className="p-4 bg-[#141414] rounded-xl border border-gray-700"
               >
-                <h3 className="text-white font-semibold mb-1">🚀 Fast Websites</h3>
-                <p className="text-gray-400 text-sm">Built for speed and efficiency.</p>
+                <h3 className="text-white font-semibold mb-1"> Performance Obsessed</h3>
+                <p className="text-gray-400 text-sm">We in GoUpEgypt are optimization experts, speed, SEO, and user experience like no other web-service.</p>
               </motion.div>
 
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 className="p-4 bg-[#141414] rounded-xl border border-gray-700"
               >
-                <h3 className="text-white font-semibold mb-1">🎨 Modern Design</h3>
-                <p className="text-gray-400 text-sm">Clean, responsive, and beautiful.</p>
+                <h3 className="text-white font-semibold mb-1"> Psychology-Backed Design</h3>
+                <p className="text-gray-400 text-sm"> We use color, layout, and visually proven designs to increase engagement exponentially no matter the type of buissnes/corperation.</p>
               </motion.div>
+                            <motion.div
+                whileHover={{ scale: 1.05 }}
+                className="p-4 bg-[#141414] rounded-xl border border-gray-700"
+              >
+                <h3 className="text-white font-semibold mb-1"> Tailored for You</h3>
+                <p className="text-gray-400 text-sm">Designed to your exact wants, every brand is unique and your website should be too.</p>
+              </motion.div>
+                            <motion.div
+                whileHover={{ scale: 1.05 }}
+                className="p-4 bg-[#141414] rounded-xl border border-gray-700"
+              >
+                <h3 className="text-white font-semibold mb-1"> Future-Ready</h3>
+                <p className="text-gray-400 text-sm">Built for the road ahead, your designed website is made to withstand tomorrows trends.</p>
+              </motion.div>
+
+
             </div>
           </motion.div>
         </motion.div>

@@ -19,14 +19,14 @@ export default function Navbar({ onContact, onAbout }) {
       <div className="flex items-center gap-4">
         <button
           onClick={onContact}
-          className="px-4 py-2 rounded-md border border-gray-700 bg-transparent hover:bg-white/5 transition cursor-pointer"
+          className="px-2 sm:px-4 sm:py-2 py-1 sm:text-base rounded-md border border-gray-700 bg-transparent hover:bg-white/5 transition cursor-pointer"
         >
-          Contact / Inquiry
+          Contact 
         </button>
 
         <button
           onClick={onAbout}
-          className="px-4 py-2 rounded-md bg-gradient-to-r from-purple-600 to-pink-600 hover:opacity-90 transition cursor-pointer font-semibold shadow-md"
+          className="px-2 sm:px-4 sm:py-2 py-1 sm:text-base rounded-md bg-gradient-to-r from-purple-600 to-pink-600 hover:opacity-90 transition cursor-pointer font-semibold shadow-md"
         >
           About Us
         </button>

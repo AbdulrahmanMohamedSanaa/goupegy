@@ -51,7 +51,7 @@ export default function Projects({ onContact }) {
 </button>
 
 <button
-  onClick={() => window.open('https://nizarpussypics.com', '_blank')}
+  onClick={() => window.open('', '_blank')}
   className="px-8 py-3 border border-gray-400 text-white font-semibold rounded-xl transition-transform transform hover:scale-105 hover:bg-gray-800 active:scale-95 cursor-pointer"
 >
   View More Work

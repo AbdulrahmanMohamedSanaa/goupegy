@@ -24,7 +24,7 @@ export default function SocialsModal({ open, onClose }) {
 
           <div className="flex flex-col gap-4">
             <a
-              href="https://instagram.com/yourusername"
+              href="https://instagram.com/goupegypt"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-pink-400 transition text-center"
@@ -32,7 +32,7 @@ export default function SocialsModal({ open, onClose }) {
               Instagram
             </a>
             <a
-              href="https://facebook.com/yourusername"
+              href="https://www.facebook.com/people/GoUpegypt/61581948554552/?mibextid=wwXIfr&rdid=ndJEI9GunaEHAwoN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19dqGVTePX%2F%3Fmibextid%3DwwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-400 transition text-center"
@@ -40,15 +40,7 @@ export default function SocialsModal({ open, onClose }) {
               Facebook
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-blue-300 transition text-center"
-            >
-              LinkedIn
-            </a>
-            <a
-              href="mailto:youremail@example.com"
+              href="mailto:admin@goupegy.com"
               className="hover:text-green-400 transition text-center"
             >
               Email Us
